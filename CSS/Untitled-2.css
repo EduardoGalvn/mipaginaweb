@@ -1,0 +1,106 @@
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+body{
+    width: 45%;
+    margin: 0 auto;
+    background-image: url("IMG/banner.jpg");
+    min-width: 900px;
+
+}
+
+.banner{
+    width: 100%;
+}
+
+#menu{
+    margin: 0;
+    padding: 50px;
+    list-style-type: none;
+    background-color: #5c3a08;
+    width: 89%;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+#menu li {
+    padding: 5px;
+    display: inline;
+    
+}
+
+.contenido{
+    background-color: beige;
+    max-width: 100%;
+    float: right;
+}
+
+.contenido h1 {
+    margin: 50px;
+    text-decoration: underline;
+}
+
+.contenido h2 {
+    margin: 50px;
+}
+
+.contenido p {
+    margin: 50px;
+}
+
+.selected {
+    background-color: beige;
+    width: 110%;
+}
+
+#menu li:hover {
+    background-color: beige;
+    text-decoration: underline;
+    width: 110%;
+}
+
+footer {
+    background-color: pink;
+    clear: both;
+}
+
+footer p {
+    padding: 15px;
+    text-align: center;
+}
+
+footer h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+article img {
+    width: 70%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.formulario {
+    margin: 0 auto;
+    background-color: rgb(240, 240, 149);
+}
+
+.submit {
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.formulario td {
+    padding-top: 5%;
+}
